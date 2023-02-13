@@ -150,9 +150,10 @@ ul {
 }
 
 #jumbotron .col-8 img {
-    height: 350px;
+    width: 100%;
     position: absolute;
-    top: 2rem;
+    top: 0;
+    left: 0;
 }
 
 /* #region DEBUG HEADER */
@@ -292,7 +293,7 @@ ul {
     padding: 2rem 1rem;
 }
 
-#plane .col-12 .price-plane {
+#plane .col-12 .price-plane { 
     color: black;
 }
 
@@ -306,27 +307,51 @@ ul {
 
 /* #get-in-touch section */
 
-.debug #get-in-touch {
+/* .debug #get-in-touch {
     background-color: antiquewhite;
-}
+} */
 
-.debug #get-in-touch .container-small .row {
+/* .debug #get-in-touch .container-small .row {
     background-color: cornflowerblue;
-}
+} */
 
-.debug #get-in-touch .container-small .col-8 {
+/* .debug #get-in-touch .container-small .col-8 {
     background-color: #ff1c1c;
     height: 500px;
     margin: 0.5rem 0;
     border: 2px dashed white;
-}
+} */
 
-.debug #get-in-touch .container-small .col-4 {
+/* .debug #get-in-touch .container-small .col-4 {
     background-color: #a2d39b;
     margin: 0.5rem 0;
     border: 2px dashed white;
+} */
+
+#get-in-touch {
+    padding: 6rem 0;
 }
 
+#get-in-touch .col-8 img{
+    width: 100%;
+    padding: 1rem;
+}
+
+#get-in-touch .col-4{
+    padding: 2rem 1rem;
+}
+
+#get-in-touch .col-4 h3{
+    font-size: 25px;
+    margin-bottom: 1rem;
+}
+
+#get-in-touch .col-4 button{
+    margin-top: 1rem;
+    padding: 0.5rem;
+    border: 1px solid black;
+    background-color: white;
+}
 /* #more-operation section */
 .debug #more-operation {
     background-color: #61082b;
