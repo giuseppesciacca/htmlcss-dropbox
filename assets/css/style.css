@@ -38,6 +38,7 @@ body {
 
 .row {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .col-4 {
@@ -132,10 +133,28 @@ body {
 .debug #get-in-touch .container-small .col-8 {
     background-color: #ff1c1c;
     height: 500px;
-    margin: 0.5rem;
+    margin: 0.5rem 0;
+    border: 2px dashed white;
 }
 
 .debug #get-in-touch .container-small .col-4 {
     background-color: #a2d39b;
-    margin: 0.5rem;
+    margin: 0.5rem 0;
+    border: 2px dashed white;
+}
+
+/* #more-operation section */
+.debug #more-operation {
+    background-color: #61082b;
+}
+
+.debug #more-operation h1{
+    background-color: #ffd830;
+}
+
+.debug #more-operation .col-4{
+    background-color: #a2d39b;
+    height: 400px;
+    border: 2px dashed sandybrown;
+    margin: 0.5rem 0;
 }
