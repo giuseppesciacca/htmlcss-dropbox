@@ -8,6 +8,7 @@
 /* #region COMMON and Utilities */
 body {
     font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
 }
 
 :root {
@@ -66,10 +67,19 @@ ul {
     width: calc(100% / 12 * 12);
 }
 
+.btn-blue {
+    background-color: var(--bg-dropox-blueprincipal);
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
 /* #endregion COMMON and Utilities */
 
 /* #region HEADER */
-#app-header{
+/* header TOP */
+#header-top {
+    background-color: white;
     position: sticky;
     top: 0;
     left: 0;
@@ -80,7 +90,6 @@ ul {
 #hd-top-right {
     width: 50%;
     align-items: center;
-    font-size: 12px;
     padding: 1rem;
 }
 
@@ -103,15 +112,11 @@ ul {
     justify-content: end;
 }
 
-#hd-top-right #begin {
-    background-color: var(--bg-dropox-blueprincipal);
-}
-
 #hd-top-right #begin a {
     color: white;
 }
 
-
+/* header BOTTOM */
 #header-bottom {
     background-color: var(--bg-dropox-bluesecondary);
 }
@@ -120,19 +125,44 @@ ul {
     height: 600px;
 }
 
+#jumbotron h1 {
+    font-size: 65px;
+    padding: 6rem 2rem 0 0;
+}
+
+#jumbotron p {
+    padding: 2rem 0;
+    line-height: 1.25rem;
+}
+
+#jumbotron i {
+    color: black;
+}
+
+#jumbotron .col-8 {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+#jumbotron .col-8 img {
+    height: 350px;
+    position: absolute;
+    top: 2rem;
+}
 
 /* #region DEBUG HEADER */
-/* .debug #hd-top-left {
+/*  .debug #hd-top-left {
     background-color: #ffd830;
-} */
-
-/* .debug #hd-top-right {
-    background-color: red;
-} */
-
-.debug #jumbotron {
-    background-color: #a2d39b;
 }
+
+ .debug #hd-top-right {
+    background-color: red;
+}
+
+ .debug #jumbotron {
+    background-color: #a2d39b;
+} */
 
 /* #endregion DEBUG HEADER */
 /* #endregion HEADER */
