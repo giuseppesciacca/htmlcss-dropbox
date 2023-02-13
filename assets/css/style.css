@@ -9,3 +9,15 @@
 body {
     font-family: 'Open Sans', sans-serif;
 }
+
+:root {
+    --bg-dropox-blueprincipal: #0061ff;
+    --bg-dropox-bluesecondary: #b4d0e7;
+    --bg-dropox-greendesignit: #a2d39b;
+    --bg-dropox-bordeauxasu: #61082b;
+    --bg-dropox-blueuf: #0093ce;
+    --bg-dropox-redtopps: #ff1c1c;
+    --bg-dropox-darkredwbicycle: #d5001f;
+    --bg-dropox-darkbluelonelyplanet: #0d2481;
+    --bg-dropox-yellowclearchannelout: #ffd830;
+}
