@@ -21,3 +21,58 @@ body {
     --bg-dropox-darkbluelonelyplanet: #0d2481;
     --bg-dropox-yellowclearchannelout: #ffd830;
 }
+
+.d-flex {
+    display: flex;
+}
+
+.container-big {
+    width: 70%;
+    margin: auto;
+}
+
+.container-small{
+    width: 60%;
+    margin: auto;
+}
+
+/* #endregion COMMON and Utilities */
+
+/* #region HEADER */
+#hd-top-left,
+#hd-top-right {
+    width: 50%;
+    height: 3rem;
+}
+
+#hd-top-right {
+    text-align: right;
+}
+
+#header-bottom {
+    background-color: var(--bg-dropox-bluesecondary);
+}
+
+#jumbotron {
+    height: 600px;
+}
+
+
+/* #region DEBUG HEADER */
+.debug #hd-top-left {
+    background-color: #ffd830;
+
+}
+
+.debug #hd-top-right {
+    background-color: red;
+}
+
+.debug #jumbotron {
+    background-color: #a2d39b;
+}
+/* #endregion DEBUG HEADER */
+/* #endregion HEADER */
+
+/* #region MAIN */
+
