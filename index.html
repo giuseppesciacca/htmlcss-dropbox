@@ -22,7 +22,7 @@
     <header id="app-header">
         <div id="header-top" class="d-flex">
 
-            <nav id="hd-top-left" class="d-flex">
+            <nav id="header-top-left" class="d-flex">
 
                 <img src="./assets/img/logo-small.png" alt="">
 
@@ -33,7 +33,7 @@
                 </ul>
             </nav>
 
-            <div id="hd-top-right">
+            <div id="header-top-right">
 
                 <ul class="d-flex">
                     <li><a href="#">Supporto</a></li>
@@ -84,16 +84,60 @@
         <section id="plane">
 
             <div class="container-small">
-                <h1>Trova il piano business che fa per te</h1>
+                <h2>Trova il piano business che fa per te</h2>
 
-                <div class="row">
-                    <div class="col-4"></div>
-                    <div class="col-4"></div>
-                    <div class="col-4"></div>
+                <div id="bill" class="d-flex">
+
+                    <div id="month-bill">
+                        <input type="radio" name="bill" id=""> <span>Fatturazione mensile</span>
+                    </div>
+
+                    <div id="annual-bill">
+                        <input type="radio" name="bill" id=""> <span>Fatturazione annuale</span>
+                    </div>
+
                 </div>
 
-                <div class="col-12">
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab magni voluptates saepe!</p>
+                <div class="row">
+                    <div class="col-4">
+
+                        <div class="card-top">
+                            <span><i class="fa-solid fa-user"></i> Singolo</span>
+                        </div>
+
+                        <div class="card-content">
+
+                            <div class="card-content-title">
+                                <h3>Professional</h3>
+                                <span class="price-plane">€ 12.00</span><br>
+                                <span>/mese</span>
+                            </div>
+
+                            <div class="card-content-plane">
+                                <span><i class="fa-solid fa-user"></i> 1 utente</span><br>
+                                <span><i class="fa-solid fa-folder"></i> 5 TB di spazio di archiviazione sicuro</span><br>
+                                <span><i class="fa-solid fa-share-nodes"></i> Funzioni di produttività premium e condivisione file semplice e sicura</span>
+                                <a href="#" class="btn-blue">Prova gratis per 30 giorni</a>
+                                <span>Oppure <a href="#" class="buy-now">acquista ora</a></span>
+                                <hr>
+
+                            </div>
+
+                            <div class="card-recap">
+                                <h4>Punti Salienti del piano</h4>
+                                <span><i class="fa-sharp fa-solid fa-check"></i> Invia file fino a 100GB con Dropbox Transfert</span><br>
+                                <span><i class="fa-sharp fa-solid fa-check"></i> Cartelle offline su dispositivi mobili</span>
+                            </div>
+
+
+                        </div>
+
+                    </div>
+                    <div class="col-4"></div>
+                    <div class="col-4"></div>
+                    <div class="col-12">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab magni voluptates saepe!</p>
+                    </div>
                 </div>
 
             </div>
