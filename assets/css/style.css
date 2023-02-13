@@ -39,6 +39,11 @@ body {
 .row {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.col-2 {
+    width: calc(100% / 12 * 2);
 }
 
 .col-4 {
@@ -214,3 +219,21 @@ body {
 /* #endregion MAIN */
 
 /* #region FOOTER */
+
+/* #footer-top section */
+.debug #app-footer {
+    background-color: #0d2481;
+}
+
+.debug #app-footer #footer-top .col-2 {
+    background-color: chocolate;
+    height: 300px;
+    border: 2px dashed wheat;
+}
+/* #footer-bottom section */
+.debug #app-footer #footer-bottom h3{
+    height: 150px;
+    background-color: #61082b;
+}
+
+/* #endregion FOOTER */
