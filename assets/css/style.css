@@ -293,7 +293,7 @@ ul {
     padding: 2rem 1rem;
 }
 
-#plane .col-12 .price-plane { 
+#plane .col-12 .price-plane {
     color: black;
 }
 
@@ -332,50 +332,83 @@ ul {
     padding: 6rem 0;
 }
 
-#get-in-touch .col-8 img{
+#get-in-touch .col-8 img {
     width: 100%;
     padding: 1rem;
 }
 
-#get-in-touch .col-4{
+#get-in-touch .col-4 {
     padding: 2rem 1rem;
 }
 
-#get-in-touch .col-4 h3{
+#get-in-touch .col-4 h3 {
     font-size: 25px;
     margin-bottom: 1rem;
 }
 
-#get-in-touch .col-4 button{
+#get-in-touch .col-4 button {
     margin-top: 1rem;
     padding: 0.5rem;
     border: 1px solid black;
     background-color: white;
 }
+
 /* #more-operation section */
-.debug #more-operation {
+/* .debug #more-operation {
     background-color: #61082b;
-}
+} */
 
-.debug #more-operation h1 {
+/* .debug #more-operation h2 {
     background-color: #ffd830;
-}
+} */
 
-.debug #more-operation .col-4 {
+/* .debug #more-operation .col-4 {
     background-color: #a2d39b;
-    height: 400px;
+    height: 450px;
     border: 2px dashed sandybrown;
     margin: 0.5rem 0;
 }
+ */
 
-/* #team section */
-.debug #team {
-    background-color: #a2d39b;
+#more-operation h2 {
+    margin-bottom: 2rem;
+ }
+
+#more-operation .col-4 {
+    padding: 1rem;
 }
 
-.debug #team h2 {
+#more-operation .col-4 img {
+    width: 100%;
+}
+
+#more-operation .col-4 h4 {
+    font-size: 18px;
+    margin-bottom: 1rem;
+}
+
+
+/* #team section */
+/* .debug #team {
+    background-color: #a2d39b;
+} */
+
+/* .debug #team h2 {
     background-color: #0093ce;
     height: 300px;
+} */
+
+#team .col-6 {
+    padding: 8rem 0;
+}
+
+#team .col-6 h2 {
+    font-size: 24px;
+    margin-bottom: 2rem;
+}
+
+#team .col-6 a{
+    color: var(--bg-dropox-blueprincipal);
 }
 
 /* #review section */
