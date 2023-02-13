@@ -26,6 +26,10 @@ body {
     display: flex;
 }
 
+ul {
+    list-style: none;
+}
+
 .container-big {
     width: 70%;
     margin: auto;
@@ -65,15 +69,48 @@ body {
 /* #endregion COMMON and Utilities */
 
 /* #region HEADER */
+#app-header{
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
 #hd-top-left,
 #hd-top-right {
     width: 50%;
-    height: 3rem;
+    align-items: center;
+    font-size: 12px;
+    padding: 1rem;
 }
 
-#hd-top-right {
-    text-align: right;
+#hd-top-left img {
+    height: 20px;
 }
+
+#hd-top-left li,
+#hd-top-right li {
+    padding: 0.25rem 1rem;
+}
+
+#hd-top-left a,
+#hd-top-right a {
+    color: black;
+    text-decoration: none;
+}
+
+#hd-top-right ul {
+    justify-content: end;
+}
+
+#hd-top-right #begin {
+    background-color: var(--bg-dropox-blueprincipal);
+}
+
+#hd-top-right #begin a {
+    color: white;
+}
+
 
 #header-bottom {
     background-color: var(--bg-dropox-bluesecondary);
@@ -85,14 +122,13 @@ body {
 
 
 /* #region DEBUG HEADER */
-.debug #hd-top-left {
+/* .debug #hd-top-left {
     background-color: #ffd830;
+} */
 
-}
-
-.debug #hd-top-right {
+/* .debug #hd-top-right {
     background-color: red;
-}
+} */
 
 .debug #jumbotron {
     background-color: #a2d39b;
@@ -198,24 +234,25 @@ body {
 }
 
 /* #dropbox-business section */
-.debug #dropbox-business{
+.debug #dropbox-business {
     background-color: var(--bg-dropox-bluesecondary);
 }
 
-.debug #dropbox-business h2{
+.debug #dropbox-business h2 {
     background-color: var(--bg-dropox-bordeauxasu);
     height: 300px;
 }
 
 /* #faq section */
-.debug #faq{
+.debug #faq {
     background-color: #a2d39b;
 }
 
-.debug #faq h2{
+.debug #faq h2 {
     background-color: #ffd830;
     height: 400px;
 }
+
 /* #endregion MAIN */
 
 /* #region FOOTER */
@@ -225,13 +262,14 @@ body {
     background-color: #0d2481;
 }
 
-.debug #app-footer #footer-top .col-2 {
+.debug #app-footer .col-2 {
     background-color: chocolate;
     height: 300px;
     border: 2px dashed wheat;
 }
+
 /* #footer-bottom section */
-.debug #app-footer #footer-bottom h3{
+.debug #app-footer h3 {
     height: 150px;
     background-color: #61082b;
 }
