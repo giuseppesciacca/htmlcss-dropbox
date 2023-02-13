@@ -209,14 +209,14 @@ ul {
 }
 
 #plane .card-top {
-    border: 1px solid grey;
+    border: 1px solid lightgrey;
     border-bottom: none;
     text-align: center;
     padding: 0.5rem;
 }
 
 #plane .card-content {
-    border: 1px solid grey;
+    border: 1px solid lightgrey;
 }
 
 #plane .card-content-title {
@@ -272,15 +272,15 @@ ul {
     margin-bottom: 1rem;
 }
 
-.debug #plane .container-small .col-12 {
-    /*     height: 100px;
-    background-color: #61082b; */
+/* .debug #plane .container-small .col-12 {
+    height: 100px;
+    background-color: #61082b;
     margin-top: 0.5rem;
     padding-bottom: 2rem;
-}
+} */
 
 #plane .col-12 .content-col12 {
-    border: 1px solid grey;
+    border: 1px solid lightgrey;
 }
 
 #plane .col-12 .left,
