@@ -486,10 +486,33 @@ ul {
 /* #endregion MAIN */
 
 /* #region FOOTER */
+#app-footer {
+    background-color: black;
+}
 
-/* #footer-top section */
+#app-footer .col-2 {
+    padding: 4rem 0;
+}
 
-/* #footer-bottom section */
+#app-footer h4,
+#app-footer a {
+    color: white;
+}
+
+#app-footer h4 {
+    font-size: 24px;
+    padding-bottom: 1rem;
+}
+
+#app-footer li {
+    padding: 0.5rem 0;
+}
+
+#app-footer a {
+    text-decoration: none;
+}
+
+
 
 /* #endregion FOOTER */
 
@@ -610,15 +633,11 @@ ul {
  */
 /* #debug footer-top section */
 
-.debug #app-footer {
-    background-color: #0d2481;
-}
-
-.debug #app-footer .col-2 {
+/* .debug #app-footer .col-2 {
     background-color: chocolate;
     height: 300px;
     border: 2px dashed wheat;
-}
+} */
 
 /* #debug footer-bottom section */
 .debug #app-footer h3 {
