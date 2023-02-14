@@ -226,6 +226,7 @@ ul {
 
 #plane .card-content-title .price-plane {
     font-weight: bold;
+    color: black;
 }
 
 #plane .card-content-title :last-child {
@@ -248,6 +249,7 @@ ul {
 #plane .card-content-plane hr {
     width: 30%;
     margin-top: 3rem;
+    color: lightgrey;
 }
 
 #plane .card-recap {
