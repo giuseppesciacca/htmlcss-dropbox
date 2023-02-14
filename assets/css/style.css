@@ -31,12 +31,12 @@ ul {
     list-style: none;
 }
 
-.container-big {
+.container-w70 {
     width: 70%;
     margin: auto;
 }
 
-.container-small {
+.container-w60 {
     width: 60%;
     margin: auto;
 }
@@ -45,6 +45,7 @@ ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    /* margin: 0 -1rem; */
 }
 
 .col-2 {
@@ -156,20 +157,6 @@ ul {
     left: 0;
 }
 
-/* #region DEBUG HEADER */
-/*  .debug #header-top-left {
-    background-color: #ffd830;
-}
-
- .debug #header-top-right {
-    background-color: red;
-}
-
- .debug #jumbotron {
-    background-color: #a2d39b;
-} */
-
-/* #endregion DEBUG HEADER */
 /* #endregion HEADER */
 
 /* #region MAIN */
@@ -191,20 +178,7 @@ ul {
     margin-right: 3rem;
 }
 
-/* .debug #plane {
-    background-color: aqua;
-} */
-
-/* .debug #plane .container-small .row {
-    background-color: #b4d0e7;
-} */
-
-/* .debug #plane .container-small .row .col-4 {
-    background-color: #61082b;
-    border: 2px dashed black;
-} */
-
-#plane .container-small .row .col-4 {
+#plane .container-w60 .row .col-4 {
     padding: 1rem;
 }
 
@@ -272,13 +246,6 @@ ul {
     margin-bottom: 1rem;
 }
 
-/* .debug #plane .container-small .col-12 {
-    height: 100px;
-    background-color: #61082b;
-    margin-top: 0.5rem;
-    padding-bottom: 2rem;
-} */
-
 #plane .col-12 .content-col12 {
     border: 1px solid lightgrey;
 }
@@ -307,27 +274,6 @@ ul {
 
 /* #get-in-touch section */
 
-/* .debug #get-in-touch {
-    background-color: antiquewhite;
-} */
-
-/* .debug #get-in-touch .container-small .row {
-    background-color: cornflowerblue;
-} */
-
-/* .debug #get-in-touch .container-small .col-8 {
-    background-color: #ff1c1c;
-    height: 500px;
-    margin: 0.5rem 0;
-    border: 2px dashed white;
-} */
-
-/* .debug #get-in-touch .container-small .col-4 {
-    background-color: #a2d39b;
-    margin: 0.5rem 0;
-    border: 2px dashed white;
-} */
-
 #get-in-touch {
     padding: 6rem 0;
 }
@@ -354,21 +300,6 @@ ul {
 }
 
 /* #more-operation section */
-/* .debug #more-operation {
-    background-color: #61082b;
-} */
-
-/* .debug #more-operation h2 {
-    background-color: #ffd830;
-} */
-
-/* .debug #more-operation .col-4 {
-    background-color: #a2d39b;
-    height: 450px;
-    border: 2px dashed sandybrown;
-    margin: 0.5rem 0;
-}
- */
 
 #more-operation h2 {
     margin-bottom: 2rem;
@@ -389,14 +320,6 @@ ul {
 
 
 /* #team section */
-/* .debug #team {
-    background-color: #a2d39b;
-} */
-
-/* .debug #team h2 {
-    background-color: #0093ce;
-    height: 300px;
-} */
 
 #team .col-6 {
     padding: 8rem 0;
@@ -411,14 +334,7 @@ ul {
     color: var(--bg-dropox-blueprincipal);
 }
 
-/* #review section */
-/* .debug #review {
-    background-color: var(--bg-dropox-redtopps);
-} */
-
-/* .debug #review .col-4:first-child {
-    background-color: #0d2481;
-} */
+/* #brands section */
 
 #brands .col-6 {
     aspect-ratio: 1;
@@ -428,6 +344,7 @@ ul {
     width: 100%;
     padding: 4rem;
     align-self: center;
+    filter: invert(1);
 }
 
 #brands #designit {
@@ -441,11 +358,6 @@ ul {
 
 #brands #arizona-uni {
     background-color: var(--bg-dropox-bordeauxasu);
-}
-
-#brands #arizona-uni img {
-    fill: white;
-    color: white;
 }
 
 #brands #florida-uni {
@@ -480,6 +392,7 @@ ul {
     width: 300px;
     padding-left: 2rem;
     padding-bottom: 2rem;
+    filter: none;
 }
 
 #brands-middle hr {
@@ -492,28 +405,149 @@ ul {
     padding: 0 2rem 2rem 2rem
 }
 
+/* #dropbox-business section */
+#dropbox-business {
+    background-color: var(--bg-dropox-bluesecondary);
+}
 
-/* .debug #brands .col-4:last-child {
-    height: 300px;
-    background-color: #0d2481;
+#dropbox-business .col-6 {
+    padding: 6rem 0;
+}
+
+#dropbox-business h2 {
+    font-size: 32px;
+    color: var(--bg-dropox-bordeauxasu);
+}
+
+#dropbox-business .col-6:last-child {
+    text-align: end;
+}
+
+#dropbox-business button {
+    margin-top: 1rem;
+    padding: 0.5rem;
+    border: none;
+    background-color: white;
+}
+
+/* #faq section */
+
+/* #endregion MAIN */
+
+/* #region FOOTER */
+
+/* #footer-top section */
+
+/* #footer-bottom section */
+
+/* #endregion FOOTER */
+
+
+/* #region DEBUG */
+/* #region DEBUG HEADER */
+/*  .debug #header-top-left {
+    background-color: #ffd830;
+}
+
+ .debug #header-top-right {
+    background-color: red;
+}
+
+ .debug #jumbotron {
+    background-color: #a2d39b;
 } */
 
-/* .debug #review .col-6 {
+/* #endregion DEBUG HEADER */
+
+/* .debug #plane {
+    background-color: aqua;
+}
+
+.debug #plane .container-w60 .row {
+    background-color: #b4d0e7;
+}
+
+.debug #plane .container-w60 .row .col-4 {
+    background-color: #61082b;
+    border: 2px dashed black;
+}
+
+.debug #plane .container-w60 .col-12 {
+    height: 100px;
+    background-color: #61082b;
+    margin-top: 0.5rem;
+    padding-bottom: 2rem;
+}
+
+.debug #get-in-touch {
+    background-color: antiquewhite;
+}
+
+.debug #get-in-touch .container-w60 .row {
+    background-color: cornflowerblue;
+}
+
+.debug #get-in-touch .container-w60 .col-8 {
+    background-color: #ff1c1c;
+    height: 500px;
+    margin: 0.5rem 0;
+    border: 2px dashed white;
+}
+
+.debug #get-in-touch .container-w60 .col-4 {
+    background-color: #a2d39b;
+    margin: 0.5rem 0;
+    border: 2px dashed white;
+}
+
+.debug #team {
+    background-color: #a2d39b;
+}
+
+.debug #team h2 {
+    background-color: #0093ce;
+    height: 300px;
+}
+
+.debug #more-operation {
+    background-color: #61082b;
+}
+
+.debug #more-operation h2 {
+    background-color: #ffd830;
+}
+
+.debug #more-operation .col-4 {
+    background-color: #a2d39b;
+    height: 450px;
+    border: 2px dashed sandybrown;
+    margin: 0.5rem 0;
+}
+
+
+ .debug #brands {
+    background-color: var(--bg-dropox-redtopps);
+}
+
+.debug #brands .col-4:first-child {
+    background-color: #0d2481;
+}
+
+.debug #brands .col-4:last-child {
+    height: 300px;
+    background-color: #0d2481;
+}
+
+.debug #brands .col-6 {
     height: 150px;
     border: 2px dashed white;
 } */
 
-/* #dropbox-business section */
-.debug #dropbox-business {
-    background-color: var(--bg-dropox-bluesecondary);
-}
-
-.debug #dropbox-business h2 {
+/* .debug #dropbox-business h2 {
     background-color: var(--bg-dropox-bordeauxasu);
     height: 300px;
-}
+} */
 
-/* #faq section */
 .debug #faq {
     background-color: #a2d39b;
 }
@@ -523,11 +557,8 @@ ul {
     height: 400px;
 }
 
-/* #endregion MAIN */
+/* #debug footer-top section */
 
-/* #region FOOTER */
-
-/* #footer-top section */
 .debug #app-footer {
     background-color: #0d2481;
 }
@@ -538,10 +569,10 @@ ul {
     border: 2px dashed wheat;
 }
 
-/* #footer-bottom section */
+/* #debug footer-bottom section */
 .debug #app-footer h3 {
     height: 150px;
     background-color: #61082b;
 }
 
-/* #endregion FOOTER */
+/* #endregion DEBUG */
