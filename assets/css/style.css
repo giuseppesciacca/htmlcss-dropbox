@@ -372,7 +372,7 @@ ul {
 
 #more-operation h2 {
     margin-bottom: 2rem;
- }
+}
 
 #more-operation .col-4 {
     padding: 1rem;
@@ -407,28 +407,101 @@ ul {
     margin-bottom: 2rem;
 }
 
-#team .col-6 a{
+#team .col-6 a {
     color: var(--bg-dropox-blueprincipal);
 }
 
 /* #review section */
-.debug #review {
+/* .debug #review {
+    background-color: var(--bg-dropox-redtopps);
+} */
+
+/* .debug #review .col-4:first-child {
+    background-color: #0d2481;
+} */
+
+#brands .col-6 {
+    aspect-ratio: 1;
+}
+
+#brands img {
+    width: 100%;
+    padding: 4rem;
+    align-self: center;
+}
+
+#brands #designit {
+    background-color: var(--bg-dropox-greendesignit);
+    border: 1rem solid lightgray;
+}
+
+#brands #designit img {
+    padding: 3rem;
+}
+
+#brands #arizona-uni {
+    background-color: var(--bg-dropox-bordeauxasu);
+}
+
+#brands #arizona-uni img {
+    fill: white;
+    color: white;
+}
+
+#brands #florida-uni {
+    background-color: var(--bg-dropox-blueuf);
+}
+
+#brands #topps {
     background-color: var(--bg-dropox-redtopps);
 }
 
-.debug #review .col-4:first-child {
-    background-color: #0d2481;
+#brands #bicycle {
+    background-color: var(--bg-dropox-darkredwbicycle);
 }
 
-.debug #review .col-4:last-child {
+#brands #hearst-corp {
+    background-color: var(--bg-dropox-bluesecondary);
+}
+
+#brands #lonely-planet {
+    background-color: var(--bg-dropox-darkbluelonelyplanet);
+}
+
+#brands #clear-channel {
+    background-color: var(--bg-dropox-yellowclearchannelout);
+}
+
+#brands-middle {
+    background-color: #f5f5f5;
+}
+
+#brands-middle img {
+    width: 300px;
+    padding-left: 2rem;
+    padding-bottom: 2rem;
+}
+
+#brands-middle hr {
+    width: 20%;
+    color: lightgrey;
+    margin: 0 2rem 2rem 2rem;
+}
+
+#brands-middle p {
+    padding: 0 2rem 2rem 2rem
+}
+
+
+/* .debug #brands .col-4:last-child {
     height: 300px;
     background-color: #0d2481;
-}
+} */
 
-.debug #review .col-6 {
+/* .debug #review .col-6 {
     height: 150px;
     border: 2px dashed white;
-}
+} */
 
 /* #dropbox-business section */
 .debug #dropbox-business {
