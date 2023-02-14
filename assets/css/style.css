@@ -488,15 +488,16 @@ ul {
 /* #region FOOTER */
 #app-footer {
     background-color: black;
+    color: white;
 }
 
 #app-footer .col-2 {
     padding: 4rem 0;
 }
 
-#app-footer h4,
 #app-footer a {
     color: white;
+    text-decoration: none;
 }
 
 #app-footer h4 {
@@ -508,11 +509,18 @@ ul {
     padding: 0.5rem 0;
 }
 
-#app-footer a {
-    text-decoration: none;
+#app-footer hr {
+    color: white;
+    width: 10%;
 }
 
+#app-footer #language-menu {
+    padding: 3rem 0;
+}
 
+#app-footer #language-menu span {
+    padding: 0 0.5rem;
+}
 
 /* #endregion FOOTER */
 
@@ -640,9 +648,9 @@ ul {
 } */
 
 /* #debug footer-bottom section */
-.debug #app-footer h3 {
+/* .debug #app-footer h3 {
     height: 150px;
     background-color: #61082b;
-}
+} */
 
 /* #endregion DEBUG */
