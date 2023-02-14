@@ -430,7 +430,58 @@ ul {
     background-color: white;
 }
 
-/* #faq section */
+/* #faqs section */
+#faqs {
+    padding: 8rem 0;
+}
+
+#faqs h2 {
+    font-size: 32px;
+    padding-bottom: 4rem;
+}
+
+#faqs .faq {
+    padding: 2.5rem 0;
+}
+
+#faqs .question {
+    font-weight: bold;
+}
+
+#faqs .answer {
+    padding-top: 2rem;
+    display: none;
+}
+
+#faqs hr {
+    color: lightgray;
+}
+
+#faqs .faq .d-flex {
+    justify-content: space-between;
+}
+
+#faqs .faq i {
+    padding-right: 2rem;
+    display: inline;
+}
+
+#faqs .faq i.fa-angle-up {
+    display: none;
+}
+
+#faqs .faq:active .fa-angle-down {
+    display: none;
+}
+
+/* #faqs .faq:active .fa-angle-up {
+    display: block;
+} */
+
+#faqs .faq:active .answer {
+    display: block;
+}
+
 
 /* #endregion MAIN */
 
@@ -548,15 +599,15 @@ ul {
     height: 300px;
 } */
 
-.debug #faq {
+/* .debug #faqs {
     background-color: #a2d39b;
-}
+} */
 
-.debug #faq h2 {
+/* .debug #faqs h2 {
     background-color: #ffd830;
     height: 400px;
 }
-
+ */
 /* #debug footer-top section */
 
 .debug #app-footer {
