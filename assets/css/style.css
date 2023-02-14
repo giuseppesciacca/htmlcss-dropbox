@@ -201,14 +201,14 @@ ul {
 }
 
 #plane .card-top {
-    border: 1px solid lightgrey;
-    border-bottom: none;
+    border-bottom: 1px solid lightgrey;
     text-align: center;
     padding: 0.5rem;
 }
 
-#plane .card-content {
-    border: 1px solid lightgrey;
+#plane .card-container {
+    border: 1px solid lightgray;
+    height: 100%;
 }
 
 #plane .card-content-title {
@@ -220,10 +220,8 @@ ul {
     margin-bottom: 1rem;
 }
 
-#plane .card-content-title span,
-#plane .card-content-plane span,
-#plane .card-recap span {
-    display: block;
+#plane ul li {
+    padding: 0.5rem 0;
 }
 
 #plane .card-content-title .price-plane {
@@ -266,10 +264,6 @@ ul {
 
 #plane .col-12 {
     padding: 0 1rem;
-}
-
-#plane .col-12 .content-col12 {
-    border: 1px solid lightgrey;
 }
 
 #plane .col-12 .left,
