@@ -158,6 +158,11 @@ ul {
     line-height: 1.25rem;
 }
 
+#jumbotron p {
+    padding: 2rem 0;
+    line-height: 1.25rem;
+}
+
 #jumbotron i {
     color: black;
 }
