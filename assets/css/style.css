@@ -384,7 +384,7 @@ ul {
 }
 
 #brands .col-6 {
-    aspect-ratio: 1;
+    aspect-ratio: 1/1;
 }
 
 #brands img {
