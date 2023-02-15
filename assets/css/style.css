@@ -123,9 +123,15 @@ ul {
     scale: 0.8;
 }
 
+#header-top-left ul,
+#header-top-right ul {
+    align-items: center;
+}
+
 #header-top-left li,
 #header-top-right li {
     padding: 0 1rem;
+    line-height: 65px;
 }
 
 #header-top-left a,
@@ -134,12 +140,12 @@ ul {
     text-decoration: none;
 }
 
-#header-top-left a:hover,
-#header-top-right a:hover {
+#header-top-left li:hover,
+#header-top-right li:hover {
     border-bottom: 2px solid black;
 }
 
-#header-top-right #begin a {
+#header-top-right a#begin {
     color: white;
 }
 
@@ -509,15 +515,15 @@ ul {
     display: none;
 }
 
-#faqs .faq:active .fa-angle-down {
+#faqs .faq:hover .fa-angle-down {
     display: none;
 }
 
-#faqs .faq:active .fa-angle-up {
+#faqs .faq:hover .fa-angle-up {
     display: block;
 }
 
-#faqs .faq:active .answer {
+#faqs .faq:hover .answer {
     display: block;
 }
 
